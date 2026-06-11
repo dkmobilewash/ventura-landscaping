@@ -4,6 +4,8 @@ import { serviceOptions, cities } from '../data/site';
 // Visual/UX-only contact form. Shows a success state on submit (no backend).
 export default function ContactForm({ defaultService = '', defaultCity = '' }) {
   const [submitted, setSubmitted] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState('');
   const [form, setForm] = useState({
     name: '',
     phone: '',
@@ -11,12 +13,32 @@ export default function ContactForm({ defaultService = '', defaultCity = '' }) {
     service: defaultService,
     city: defaultCity,
     message: '',
+    company: '', // honeypot (hidden from real users)
   });
 
   const update = (e) => setForm({ ...form, [e.target.name]: e.target.value });
-  const onSubmit = (e) => {
+  const onSubmit = async (e) => {
     e.preventDefault();
-    setSubmitted(true);
+    setError('');
+    setSending(true);
+    try {
+      const res = await fetch('/api/send-lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ formType: 'contact', ...form }),
+      });
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        throw new Error(data.error || 'Something went wrong.');
+      }
+      setSubmitted(true);
+    } catch (err) {
+      setError(
+        `${err.message} Please try again, or call us directly at (805) 833-0167.`
+      );
+    } finally {
+      setSending(false);
+    }
   };
 
   if (submitted) {
@@ -76,8 +98,26 @@ export default function ContactForm({ defaultService = '', defaultCity = '' }) {
         <textarea id="cf-message" name="message" rows="4" value={form.message} onChange={update} placeholder="Tell us about your project..." />
       </div>
 
-      <button className="btn btn--primary btn--lg" type="submit">
-        Request My Free Quote
+      {/* Honeypot field — hidden from humans, catches bots */}
+      <input
+        type="text"
+        name="company"
+        value={form.company}
+        onChange={update}
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+        style={{ position: 'absolute', left: '-5000px' }}
+      />
+
+      {error && (
+        <p role="alert" style={{ color: '#b3261e', margin: 0 }}>
+          {error}
+        </p>
+      )}
+
+      <button className="btn btn--primary btn--lg" type="submit" disabled={sending}>
+        {sending ? 'Sending…' : 'Request My Free Quote'}
       </button>
     </form>
   );

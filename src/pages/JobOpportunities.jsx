@@ -20,6 +20,32 @@ const perks = [
 export default function JobOpportunities() {
   const crumbs = [{ label: 'Home', to: '/' }, { label: 'Job Opportunities' }];
   const [submitted, setSubmitted] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState('');
+
+  const onApply = async (e) => {
+    e.preventDefault();
+    setError('');
+    setSending(true);
+    const fd = new FormData(e.target);
+    const payload = Object.fromEntries(fd.entries());
+    try {
+      const res = await fetch('/api/send-lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ formType: 'application', ...payload }),
+      });
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        throw new Error(data.error || 'Something went wrong.');
+      }
+      setSubmitted(true);
+    } catch (err) {
+      setError(`${err.message} Please try again, or call us at ${business.phoneDisplay}.`);
+    } finally {
+      setSending(false);
+    }
+  };
 
   return (
     <>
@@ -90,7 +116,7 @@ export default function JobOpportunities() {
               </p>
             </div>
           ) : (
-            <form className="form" onSubmit={(e) => { e.preventDefault(); setSubmitted(true); }}>
+            <form className="form" onSubmit={onApply}>
               <div className="form__row">
                 <div className="field">
                   <label htmlFor="j-name">Name</label>
@@ -121,7 +147,11 @@ export default function JobOpportunities() {
                 <label htmlFor="j-message">Message</label>
                 <textarea id="j-message" name="message" rows="4" placeholder="Tell us about your experience..." />
               </div>
-              <button className="btn btn--primary btn--lg" type="submit">Submit Application</button>
+              <input type="text" name="company" tabIndex={-1} autoComplete="off" aria-hidden="true" style={{ position: 'absolute', left: '-5000px' }} />
+              {error && <p role="alert" style={{ color: '#b3261e', margin: 0 }}>{error}</p>}
+              <button className="btn btn--primary btn--lg" type="submit" disabled={sending}>
+                {sending ? 'Sending…' : 'Submit Application'}
+              </button>
             </form>
           )}
         </div>
