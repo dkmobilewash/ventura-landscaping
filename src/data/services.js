@@ -17,7 +17,7 @@ export const services = {
     h1: 'Yard Care & Lawn Maintenance Services in Ventura County',
     title: 'Yard Care & Lawn Maintenance in Ventura County | Landscaping Pros Of Ventura',
     meta: 'Professional yard care and lawn maintenance services across Ventura County, CA. Mowing, edging, cleanup, fertilization, and more. Call (805) 833-0167.',
-    image: 'https://media.istockphoto.com/id/1303205391/photo/lawn-mowing.jpg',
+    image: 'https://media.istockphoto.com/id/2150853972/photo/green-grass-cutting-with-lawn-mower-in-home-garden.jpg?s=612x612&w=0&k=20&c=EzSmAvWSwnbVbJxJP6fsMIDbGnPDmJ_VgpBUVUbO1aM=',
     imageAlt: 'Crew mowing and maintaining a healthy green lawn in Ventura County',
     heroSubtitle: 'Reliable weekly and monthly lawn care that keeps your Ventura County yard sharp, green, and effortless all year.',
     intro: [
@@ -52,7 +52,7 @@ export const services = {
     h1: 'Tree Removal & Installation in Ventura County, CA',
     title: 'Tree Removal & Tree Installation in Ventura County | Landscaping Pros Of Ventura',
     meta: 'Safe, professional tree removal and new tree installation in Ventura County. Licensed crew, all sizes. Call Landscaping Pros Of Ventura at (805) 833-0167.',
-    image: 'https://media.istockphoto.com/id/1152202398/photo/tree-removal.jpg',
+    image: 'https://media.istockphoto.com/id/90398049/photo/tree-removal.jpg?s=612x612&w=0&k=20&c=cyBqaH4qWSeTRgQQDn-GbVhG0-iZS4GJgZ9ETFFOEuo=',
     imageAlt: 'Professional crew safely removing a large tree in Ventura County',
     heroSubtitle: 'From hazardous removals to brand-new shade trees, we handle it safely, cleanly, and with respect for your property.',
     intro: [
@@ -87,7 +87,7 @@ export const services = {
     h1: 'Tree Trimming & Pruning Services in Ventura County',
     title: 'Tree Trimming & Pruning in Ventura County | Landscaping Pros Of Ventura',
     meta: 'Expert tree trimming and pruning in Ventura County, CA. We shape, thin, and maintain trees for health, safety, and curb appeal. Call (805) 833-0167.',
-    image: 'https://media.istockphoto.com/id/1137808141/photo/arborist-pruning-tree.jpg',
+    image: 'https://media.istockphoto.com/id/2219130077/photo/arborist-climbing-a-tree-with-a-ladder.jpg?s=612x612&w=0&k=20&c=iyqf8m9Hzt9VcBnB4zE6GwYw8SW0K5lwt9jLqbAr6I8=',
     imageAlt: 'Arborist carefully pruning a tree for health and shape in Ventura County',
     heroSubtitle: 'Skilled pruning that keeps your trees healthy, safe, and beautiful — without the over-cutting that ruins them.',
     intro: [
@@ -122,7 +122,7 @@ export const services = {
     h1: 'Additional Landscaping Services in Ventura County',
     title: 'Additional Landscape Services | Landscaping Pros Of Ventura',
     meta: 'Beyond the basics — Landscaping Pros Of Ventura offers gopher control, mulching, sod installation, retaining walls, and more across Ventura County.',
-    image: 'https://media.istockphoto.com/id/1300807241/photo/professional-landscaping.jpg',
+    image: 'https://media.istockphoto.com/id/2215014724/photo/homeowner-mulching.jpg?s=612x612&w=0&k=20&c=U8rpXEll2d98zjkcHMqdfqqgb0k_N4Nx3SVYwpJZ2Dk=',
     imageAlt: 'Landscapers installing fresh mulch and sod in a Ventura County yard',
     heroSubtitle: 'The extra services that round out a complete landscape — from fresh sod to mulching, grading, and pest control.',
     intro: [
@@ -157,7 +157,7 @@ export const services = {
     h1: 'Landscape Disease, Pest & Animal Damage Prevention in Ventura County',
     title: 'Disease, Pest & Animal Damage Prevention | Landscaping Pros Of Ventura',
     meta: 'Protect your Ventura County lawn and landscape from disease, pests, and animal damage. Expert prevention and treatment from Landscaping Pros Of Ventura.',
-    image: 'https://media.istockphoto.com/id/1300807241/photo/professional-landscaping.jpg',
+    image: 'https://media.istockphoto.com/id/2156689384/photo/water-conservation-featured-in-a-simple-well-designed-xeriscaped-garden.jpg?s=612x612&w=0&k=20&c=zDu30qvg8vIJKLvLduHJ5edcLbIHPkpwcl0ndq9prtg=',
     imageAlt: 'Healthy protected landscape free of pests and disease in Ventura County',
     heroSubtitle: 'Proactive prevention and targeted treatment that keep your lawn and plants healthy against local pests, disease, and critters.',
     intro: [
@@ -194,7 +194,7 @@ export const services = {
     h1: 'HOA Landscape Services in Ventura County',
     title: 'HOA Landscaping Services in Ventura County | Landscaping Pros Of Ventura',
     meta: 'Reliable HOA landscape maintenance and design in Ventura County. We work with property managers and HOA boards to keep communities beautiful. Call (805) 833-0167.',
-    image: 'https://media.istockphoto.com/id/1163968961/photo/landscape-design.jpg',
+    image: 'https://media.istockphoto.com/id/2183289459/photo/design-of-landscaping-in-the-garden-park-square-recreation-area.jpg?s=612x612&w=0&k=20&c=A4nCdEJAAUGh9aqT4U3q-3NbAMupKhjLDG8abTeZI9M=',
     imageAlt: 'Well-maintained HOA community landscaping in Ventura County',
     heroSubtitle: 'Dependable, communicative landscape partners for HOA boards and property managers across Ventura County.',
     intro: [
@@ -230,7 +230,7 @@ export const services = {
     h1: 'Landscape Design & Installation in Ventura County',
     title: 'Landscape Design & Installation | Ventura County | Landscaping Pros Of Ventura',
     meta: 'Custom landscape design and full installation services in Ventura County, CA. From concept to completion — drought-tolerant, beautiful, and built to last.',
-    image: 'https://media.istockphoto.com/id/1163968961/photo/landscape-design.jpg',
+    image: 'https://media.istockphoto.com/id/2168487231/photo/large-gray-pergola-on-pavers-with-stone-fireplace-and-waterfall-urns-for-backyard-oasis.jpg?s=612x612&w=0&k=20&c=r73pWzPWRGdZ7yl12LXrDZsErUIk1UEywS8P-NHW-Aw=',
     imageAlt: 'Custom landscape design and installation in a Ventura County backyard',
     heroSubtitle: 'Full-service design and installation — we turn your front or back yard into a beautiful, low-water outdoor space built to last.',
     intro: [
@@ -266,7 +266,7 @@ export const services = {
     h1: 'Artificial Turf & Putting Greens in Ventura County',
     title: 'Artificial Turf & Putting Greens in Ventura County | Landscaping Pros Of Ventura',
     meta: 'Water-saving artificial turf and custom putting greens for Ventura County homes. Looks great, stays green, zero maintenance. Call (805) 833-0167.',
-    image: 'https://media.istockphoto.com/id/1345943968/photo/artificial-turf-putting-green.jpg',
+    image: 'https://media.istockphoto.com/id/1387980624/photo/grass-field-meadow-green-on-the-garden-front-of-the-house.jpg?s=612x612&w=0&k=20&c=DeCFI5D28BmbzQMefRK9WZBd_2dSLMsiAg4aSrlnpHU=',
     imageAlt: 'Lush artificial turf lawn and putting green installed in Ventura County',
     heroSubtitle: 'Stay green all year with zero mowing and almost no water — premium artificial turf and custom putting greens.',
     intro: [
@@ -302,7 +302,7 @@ export const services = {
     h1: 'Outdoor Kitchens & BBQ Islands in Ventura County',
     title: 'Outdoor Kitchens & BBQ Islands in Ventura County | Landscaping Pros Of Ventura',
     meta: "Custom outdoor kitchens and BBQ islands built for Ventura County's year-round outdoor living lifestyle. Design, build, and enjoy. Call (805) 833-0167.",
-    image: 'https://media.istockphoto.com/id/1389088533/photo/outdoor-kitchen-bbq.jpg',
+    image: 'https://media.istockphoto.com/id/1211179492/photo/backyard-hardscape-patio-with-outdoor-barbecue-and-kitchen.jpg?s=612x612&w=0&k=20&c=z768rV5wm1901kArG-Jvk2eLi3SwjNZbbyjb-EDRKvs=',
     imageAlt: 'Custom outdoor kitchen and BBQ island built in a Ventura County backyard',
     heroSubtitle: "Cook, host, and relax outside all year — custom BBQ islands and full outdoor kitchens built for our climate.",
     intro: [
@@ -338,7 +338,7 @@ export const services = {
     h1: 'Outdoor Fireplaces & Fire Pits in Ventura County',
     title: 'Outdoor Fireplaces & Fire Pits in Ventura County | Landscaping Pros Of Ventura',
     meta: "Add warmth and ambiance to your backyard with a custom fireplace or fire pit. Ventura County's outdoor living specialists. Call (805) 833-0167.",
-    image: 'https://media.istockphoto.com/id/1409305813/photo/fire-pit-patio.jpg',
+    image: 'https://media.istockphoto.com/id/2155899995/photo/backyard-with-a-fire-pit-in-a-new-construction-home-in-encino-california.jpg?s=612x612&w=0&k=20&c=U7XvrW_7EDR3c_ZFMJ-d7pGL0XDTYpNiNta8s7ZJmpE=',
     imageAlt: 'Custom outdoor fire pit and patio seating area in Ventura County',
     heroSubtitle: 'Cozy up your evenings with a custom fire pit or fireplace that becomes your backyard’s natural gathering point.',
     intro: [
@@ -374,7 +374,7 @@ export const services = {
     h1: 'Outdoor Landscape Lighting in Ventura County',
     title: 'Outdoor Lighting in Ventura County | Landscaping Pros Of Ventura',
     meta: "Enhance your home's beauty and security with professional outdoor landscape lighting. Ventura County design and installation. Call (805) 833-0167.",
-    image: 'https://media.istockphoto.com/id/1191625635/photo/outdoor-landscape-lighting.jpg',
+    image: 'https://media.istockphoto.com/id/2150168202/photo/elegant-and-modern-garden-led-lighting.jpg?s=612x612&w=0&k=20&c=QsS03RA0FvXo7JQ91cCourIBIxpjLHAS040Fo8UWPsc=',
     imageAlt: 'Professional landscape lighting illuminating a Ventura County home and garden',
     heroSubtitle: 'Beautiful, secure, and energy-efficient landscape lighting that makes your property shine after dark.',
     intro: [
@@ -410,7 +410,7 @@ export const services = {
     h1: 'Boulders, Rock & Decomposed Granite in Ventura County',
     title: 'Boulders & Rock Landscaping in Ventura County | Landscaping Pros Of Ventura',
     meta: 'Natural boulders, decorative rock, and DG installation for Ventura County landscapes. Low-maintenance and drought-smart. Call (805) 833-0167.',
-    image: 'https://media.istockphoto.com/id/1300807241/photo/professional-landscaping.jpg',
+    image: 'https://media.istockphoto.com/id/117187022/photo/filtered-golden-sunlight-iluminates-rock-retaining-wall.jpg?s=612x612&w=0&k=20&c=qtnxwfdFGQp70HLBvRs-rEuokCfeld7iQWLmxvt7bvs=',
     imageAlt: 'Natural boulders and decorative rock in a drought-tolerant Ventura County landscape',
     heroSubtitle: 'Add structure, texture, and water-wise beauty with natural boulders, decorative rock, and decomposed granite.',
     intro: [
@@ -446,7 +446,7 @@ export const services = {
     h1: 'Pots, Planters & Flower Beds in Ventura County',
     title: 'Pots & Flower Beds in Ventura County | Landscaping Pros Of Ventura',
     meta: "Colorful pots, custom planters, and flower beds designed for Ventura County's coastal climate. Seasonal color all year long. Call (805) 833-0167.",
-    image: 'https://media.istockphoto.com/id/1300807241/photo/professional-landscaping.jpg',
+    image: 'https://media.istockphoto.com/id/153194946/photo/colorful-flower-garden.jpg?s=612x612&w=0&k=20&c=dPDsyi3bTz9iRIuRYKAxloHkINauALfXezrydhI006U=',
     imageAlt: 'Colorful potted plants and flower beds in a Ventura County garden',
     heroSubtitle: 'Bring color and life to your entry, patio, and beds with thoughtfully designed pots and seasonal plantings.',
     intro: [
@@ -482,7 +482,7 @@ export const services = {
     h1: 'Hardscape Design & Installation in Ventura County',
     title: 'More Hardscape Elements | Ventura County | Landscaping Pros Of Ventura',
     meta: 'Patios, walkways, retaining walls, steps, pergolas, and more — Landscaping Pros Of Ventura builds beautiful hardscapes across Ventura County.',
-    image: 'https://media.istockphoto.com/id/1163968961/photo/landscape-design.jpg',
+    image: 'https://media.istockphoto.com/id/471348728/photo/image-of-raised-garden-beds-with-flagstone-paving-patio-wheelchair-friendly.jpg?s=612x612&w=0&k=20&c=P2d0dSsrC8J1ZTIjHtPoyBM4tvVu8L0H2Rx3zvC9uAQ=',
     imageAlt: 'Paver patio, retaining wall, and walkway hardscape in Ventura County',
     heroSubtitle: 'Patios, walkways, walls, steps, and pergolas — the durable structure that makes a landscape truly livable.',
     intro: [
@@ -518,7 +518,7 @@ export const services = {
     h1: 'Mature Landscape Care & Renovation in Ventura County',
     title: 'Mature Landscapes | Renovation & Maintenance | Landscaping Pros Of Ventura',
     meta: 'Has your landscape outgrown itself? We specialize in renovating and maintaining mature landscapes across Ventura County. Call (805) 833-0167.',
-    image: 'https://media.istockphoto.com/id/1163968961/photo/landscape-design.jpg',
+    image: 'https://media.istockphoto.com/id/1322531047/photo/backyard-deck-and-pergola.jpg?s=612x612&w=0&k=20&c=TddqinCfYfFFi-T1GuoHuQLGRhofgASxGII8dsO25SY=',
     imageAlt: 'Renovated mature landscape with established trees in Ventura County',
     heroSubtitle: 'Renew an overgrown or dated landscape — we restore mature yards to health and beauty without starting from scratch.',
     intro: [
@@ -554,7 +554,7 @@ export const services = {
     h1: 'Irrigation & Sprinkler Services in Ventura County',
     title: 'Irrigation Services in Ventura County | Landscaping Pros Of Ventura',
     meta: 'Smart irrigation installation, repair, and upgrades for Ventura County homes. Save water, protect your landscape. Call (805) 833-0167.',
-    image: 'https://media.istockphoto.com/id/862430746/photo/irrigation-sprinkler-system.jpg',
+    image: 'https://media.istockphoto.com/id/172347234/photo/sprinklers-low.jpg?s=612x612&w=0&k=20&c=d4EU1xu-huGum55ABAtjfNWFpUDK3r2fl-WWOsKaC08=',
     imageAlt: 'Efficient irrigation sprinkler system watering a Ventura County lawn',
     heroSubtitle: 'Install, repair, and upgrade your irrigation to save water and keep every plant healthy — even in drought.',
     intro: [
@@ -589,7 +589,7 @@ export const services = {
     h1: 'Landscape Lighting Services in Ventura County',
     title: 'Landscape Lighting Services in Ventura County | Landscaping Pros Of Ventura',
     meta: 'Professional landscape lighting design and installation for Ventura County properties. LED, low-voltage, and smart lighting solutions. Call (805) 833-0167.',
-    image: 'https://media.istockphoto.com/id/1191625635/photo/outdoor-landscape-lighting.jpg',
+    image: 'https://media.istockphoto.com/id/1418463108/photo/decorative-backyard-garden-illuminated-by-garden-lighting.jpg?s=612x612&w=0&k=20&c=0uAkhsE-gnPeVVd9nesxMqXFzT4zU1ReHifYAb34ipY=',
     imageAlt: 'Low-voltage LED landscape lighting on a Ventura County property at dusk',
     heroSubtitle: 'Design, installation, and service of low-voltage LED lighting systems that make your property beautiful and safe at night.',
     intro: [

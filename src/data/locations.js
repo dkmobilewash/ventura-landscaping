@@ -7,7 +7,7 @@ export const locations = {
     h1: 'Landscaping Services in Ventura, CA',
     title: 'Landscaping Services in Ventura, CA | Landscaping Pros Of Ventura',
     meta: 'Expert landscaping, lawn care, irrigation, and landscape design in Ventura, CA. Serving homeowners and businesses throughout the city. Call (805) 833-0167.',
-    image: 'https://media.istockphoto.com/id/1300807241/photo/professional-landscaping.jpg',
+    image: 'https://media.istockphoto.com/id/2245287606/photo/modern-minimalist-garden-with-stepping-stones-and-colorful-flowers.jpg?s=612x612&w=0&k=20&c=UU-UJNNEVZ_iwImfCpDex-Y0zGXA8h39qWBs2xUGsSY=',
     imageAlt: 'Professional landscaping for a home in Ventura, CA',
     heroSubtitle: 'Your local Ventura landscapers for lawn care, design, irrigation, and outdoor living — built for our coastal climate.',
     intro: [
@@ -35,7 +35,7 @@ export const locations = {
     h1: 'Landscaping Services in Oxnard, CA',
     title: 'Landscaping Services in Oxnard, CA | Landscaping Pros Of Ventura',
     meta: 'Professional landscaping and lawn maintenance in Oxnard, CA. Drought-tolerant designs, turf, irrigation, and more. Call (805) 833-0167.',
-    image: 'https://media.istockphoto.com/id/1300807241/photo/professional-landscaping.jpg',
+    image: 'https://media.istockphoto.com/id/2155899861/photo/backyard-pool-in-a-verdant-garden-setting-in-a-modern-new-construction-home-in-los-angeles.jpg?s=612x612&w=0&k=20&c=KPb4CssXWXTPInXz7SKEvk30Ilh7UOsq3nLeuMWnkNo=',
     imageAlt: 'Landscaped residential yard in Oxnard, CA',
     heroSubtitle: 'Full-service landscaping for Oxnard homes — from large residential lots to water-wise turf and irrigation.',
     intro: [
@@ -63,7 +63,7 @@ export const locations = {
     h1: 'Landscaping Services in Channel Islands, CA',
     title: 'Landscaping Services in Channel Islands, CA | Landscaping Pros Of Ventura',
     meta: 'Landscaping and yard maintenance for Channel Islands area residents. Lawn care, irrigation, and outdoor living design. Call (805) 833-0167.',
-    image: 'https://media.istockphoto.com/id/1300807241/photo/professional-landscaping.jpg',
+    image: 'https://media.istockphoto.com/id/2168487231/photo/large-gray-pergola-on-pavers-with-stone-fireplace-and-waterfall-urns-for-backyard-oasis.jpg?s=612x612&w=0&k=20&c=r73pWzPWRGdZ7yl12LXrDZsErUIk1UEywS8P-NHW-Aw=',
     imageAlt: 'Waterfront-area landscaping near Channel Islands Harbor, CA',
     heroSubtitle: 'Coastal landscaping built for the Channel Islands Harbor lifestyle — wind- and salt-tolerant, beautiful, and low-maintenance.',
     intro: [
@@ -91,7 +91,7 @@ export const locations = {
     h1: 'Landscaping Services in Camarillo, CA',
     title: 'Landscaping Services in Camarillo, CA | Landscaping Pros Of Ventura',
     meta: 'Quality landscaping and lawn care in Camarillo, CA. Serving homes and HOA communities with expert irrigation, turf, and maintenance. Call (805) 833-0167.',
-    image: 'https://media.istockphoto.com/id/1163968961/photo/landscape-design.jpg',
+    image: 'https://media.istockphoto.com/id/471348728/photo/image-of-raised-garden-beds-with-flagstone-paving-patio-wheelchair-friendly.jpg?s=612x612&w=0&k=20&c=P2d0dSsrC8J1ZTIjHtPoyBM4tvVu8L0H2Rx3zvC9uAQ=',
     imageAlt: 'Landscaped home in a Camarillo, CA planned community',
     heroSubtitle: 'Landscaping for Camarillo homes and HOA communities — polished, water-wise, and dependable.',
     intro: [
@@ -119,7 +119,7 @@ export const locations = {
     h1: 'Landscaping Services in Saticoy, CA',
     title: 'Landscaping Services in Saticoy, CA | Landscaping Pros Of Ventura',
     meta: "Dependable landscaping and lawn maintenance in Saticoy, CA. Ventura County's local pros for yard care, trees, and outdoor design. Call (805) 833-0167.",
-    image: 'https://media.istockphoto.com/id/1303205391/photo/lawn-mowing.jpg',
+    image: 'https://media.istockphoto.com/id/2201667120/photo/beautiful-lawn-and-garden-path-in-a-uk-park-or-garden.jpg?s=612x612&w=0&k=20&c=93He--cEoPeNBqstGwNz4F0BWScm0A_uCb0jWaLQqFU=',
     imageAlt: 'Maintained landscaping on a larger property in Saticoy, CA',
     heroSubtitle: 'Landscaping for Saticoy’s larger, rural-feel properties — yard care, trees, and full-service maintenance.',
     intro: [
@@ -147,7 +147,7 @@ export const locations = {
     h1: 'Landscaping Services in Santa Paula, CA',
     title: 'Landscaping Services in Santa Paula, CA | Landscaping Pros Of Ventura',
     meta: 'Landscaping, tree care, and yard maintenance in Santa Paula, CA. Local Ventura County experts. Call Landscaping Pros Of Ventura at (805) 833-0167.',
-    image: 'https://media.istockphoto.com/id/1137808141/photo/arborist-pruning-tree.jpg',
+    image: 'https://media.istockphoto.com/id/2219130077/photo/arborist-climbing-a-tree-with-a-ladder.jpg?s=612x612&w=0&k=20&c=iyqf8m9Hzt9VcBnB4zE6GwYw8SW0K5lwt9jLqbAr6I8=',
     imageAlt: 'Tree care and landscaping for a historic home in Santa Paula, CA',
     heroSubtitle: 'Landscaping and tree care for Santa Paula’s historic homes and citrus-country setting — inland-climate experts.',
     intro: [

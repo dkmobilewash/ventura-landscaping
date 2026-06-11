@@ -38,7 +38,7 @@ export default function Critters() {
       <HeroSection
         title="Common Yard Critters in Ventura County"
         subtitle="Know your local wildlife. Here are the critters that most often damage Ventura County lawns and gardens — and how we handle them."
-        backgroundImage="https://media.istockphoto.com/id/1300807241/photo/professional-landscaping.jpg"
+        backgroundImage="https://media.istockphoto.com/id/2201667120/photo/beautiful-lawn-and-garden-path-in-a-uk-park-or-garden.jpg?s=612x612&w=0&k=20&c=93He--cEoPeNBqstGwNz4F0BWScm0A_uCb0jWaLQqFU="
         backgroundAlt="Healthy, protected landscape in Ventura County"
       />
       <Breadcrumb crumbs={crumbs} />

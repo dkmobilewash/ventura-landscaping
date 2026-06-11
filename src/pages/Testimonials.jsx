@@ -25,7 +25,7 @@ export default function Testimonials() {
       <HeroSection
         title="What Our Customers Say"
         subtitle="Don’t take our word for it — hear from Ventura County homeowners who trust us with their landscapes."
-        backgroundImage="https://media.istockphoto.com/id/1300807241/photo/professional-landscaping.jpg"
+        backgroundImage="https://media.istockphoto.com/id/2245287606/photo/modern-minimalist-garden-with-stepping-stones-and-colorful-flowers.jpg?s=612x612&w=0&k=20&c=UU-UJNNEVZ_iwImfCpDex-Y0zGXA8h39qWBs2xUGsSY="
         backgroundAlt="Happy landscaping customers across Ventura County"
       />
       <Breadcrumb crumbs={crumbs} />

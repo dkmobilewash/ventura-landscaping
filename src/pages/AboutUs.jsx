@@ -31,7 +31,7 @@ export default function AboutUs() {
       <HeroSection
         title="About Landscaping Pros Of Ventura"
         subtitle="A local, family-minded landscaping company rooted in Ventura County — and committed to making your outdoor space beautiful."
-        backgroundImage="https://media.istockphoto.com/id/1300807241/photo/professional-landscaping.jpg"
+        backgroundImage="https://media.istockphoto.com/id/2183289459/photo/design-of-landscaping-in-the-garden-park-square-recreation-area.jpg?s=612x612&w=0&k=20&c=A4nCdEJAAUGh9aqT4U3q-3NbAMupKhjLDG8abTeZI9M="
         backgroundAlt="The Landscaping Pros Of Ventura team at work in Ventura County"
       />
       <Breadcrumb crumbs={crumbs} />
@@ -60,7 +60,7 @@ export default function AboutUs() {
           </div>
           <div>
             <img
-              src="https://media.istockphoto.com/id/1163968961/photo/landscape-design.jpg"
+              src="https://media.istockphoto.com/id/2168487231/photo/large-gray-pergola-on-pavers-with-stone-fireplace-and-waterfall-urns-for-backyard-oasis.jpg?s=612x612&w=0&k=20&c=r73pWzPWRGdZ7yl12LXrDZsErUIk1UEywS8P-NHW-Aw="
               alt="Landscape design and installation work in Ventura County"
               loading="lazy"
             />

@@ -32,7 +32,7 @@ export default function JobOpportunities() {
       <HeroSection
         title="Join The Landscaping Pros Of Ventura Team"
         subtitle="We’re hiring hardworking, reliable people who take pride in their work. Build a career outdoors with a respected local company."
-        backgroundImage="https://media.istockphoto.com/id/1303205391/photo/lawn-mowing.jpg"
+        backgroundImage="https://media.istockphoto.com/id/2150853972/photo/green-grass-cutting-with-lawn-mower-in-home-garden.jpg?s=612x612&w=0&k=20&c=EzSmAvWSwnbVbJxJP6fsMIDbGnPDmJ_VgpBUVUbO1aM="
         backgroundAlt="Landscaping crew working in Ventura County"
       />
       <Breadcrumb crumbs={crumbs} />

@@ -41,7 +41,7 @@ export default function MonthlyCalendar() {
       <HeroSection
         title="Ventura County Monthly Landscaping Calendar"
         subtitle="A month-by-month guide to what to plant, prune, water, and fertilize in our Southern California coastal climate."
-        backgroundImage="https://media.istockphoto.com/id/1303205391/photo/lawn-mowing.jpg"
+        backgroundImage="https://media.istockphoto.com/id/170168600/photo/lawn-mower-and-spring-mowing.jpg?s=612x612&w=0&k=20&c=-bX-os14pZVaNuIqhp4t7kRBAfQIuHMhQ4ofzZirtdQ="
         backgroundAlt="Year-round landscaping care in Ventura County"
       />
       <Breadcrumb crumbs={crumbs} />

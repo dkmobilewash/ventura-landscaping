@@ -43,7 +43,7 @@ export default function Home() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: business.name,
-    image: 'https://media.istockphoto.com/id/1300807241/photo/professional-landscaping.jpg',
+    image: 'https://media.istockphoto.com/id/2245287606/photo/modern-minimalist-garden-with-stepping-stones-and-colorful-flowers.jpg?s=612x612&w=0&k=20&c=UU-UJNNEVZ_iwImfCpDex-Y0zGXA8h39qWBs2xUGsSY=',
     telephone: business.phoneDisplay,
     url: business.url,
     priceRange: '$$',
@@ -78,7 +78,7 @@ export default function Home() {
         variant="home"
         title="Professional Landscaping Services In Ventura County"
         subtitle="From yard care and landscape design to irrigation, artificial turf, hardscape, lighting, and ongoing maintenance — Landscaping Pros Of Ventura does it all, beautifully and reliably."
-        backgroundImage="https://media.istockphoto.com/id/1300807241/photo/professional-landscaping.jpg"
+        backgroundImage="https://media.istockphoto.com/id/2245287606/photo/modern-minimalist-garden-with-stepping-stones-and-colorful-flowers.jpg?s=612x612&w=0&k=20&c=UU-UJNNEVZ_iwImfCpDex-Y0zGXA8h39qWBs2xUGsSY="
         backgroundAlt="Professional landscaping services in Ventura County"
       />
 
