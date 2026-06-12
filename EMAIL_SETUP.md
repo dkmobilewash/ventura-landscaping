@@ -28,7 +28,7 @@ which emails the submission to you via [Resend](https://resend.com).
   **dcarrillo0422@gmail.com**, which is the email the Resend account/API key is set
   up under, so test emails will arrive fine.
 - **For production (recommended):** in Resend, go to **Domains → Add Domain**,
-  add `landscapingprosofventura.com` (or `detailvice.com`), and add the DNS
+  add `landscapingprosofventura.com`, and add the DNS
   records it gives you. Once verified, set:
   `LEAD_FROM_EMAIL="Landscaping Pros Of Ventura <leads@landscapingprosofventura.com>"`
   This lets leads be delivered to any address and improves deliverability.

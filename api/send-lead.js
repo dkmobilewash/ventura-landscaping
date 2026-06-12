@@ -4,7 +4,7 @@
 //   RESEND_API_KEY      - your Resend API key (Settings > API Keys on resend.com)
 //
 // Optional environment variables:
-//   LEAD_TO_EMAIL       - where leads are delivered (default: diego@detailvice.com)
+//   LEAD_TO_EMAIL       - where leads are delivered (default: dcarrillo0422@gmail.com)
 //   LEAD_FROM_EMAIL     - verified Resend sender (default: onboarding@resend.dev)
 //                         Use a verified-domain address once your domain is set up,
 //                         e.g. "Landscaping Pros Of Ventura <leads@landscapingprosofventura.com>"
