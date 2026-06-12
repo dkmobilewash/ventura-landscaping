@@ -14,7 +14,7 @@ which emails the submission to you via [Resend](https://resend.com).
    | Name | Value |
    |------|-------|
    | `RESEND_API_KEY` | your `re_…` key |
-   | `LEAD_TO_EMAIL` | `diego@detailvice.com` (optional — this is the default) |
+   | `LEAD_TO_EMAIL` | `dcarrillo0422@gmail.com` (optional — this is the default) |
    | `LEAD_FROM_EMAIL` | leave unset until your domain is verified (see below) |
    Redeploy after adding them.
 4. **Local testing (optional):** copy `.env.example` to `.env`, fill in the key,
@@ -24,8 +24,9 @@ which emails the submission to you via [Resend](https://resend.com).
 
 - **Before domain verification:** the function sends from Resend's test sender
   `onboarding@resend.dev`. Resend only allows that test sender to deliver to the
-  email that owns your Resend account — so make sure you sign up for Resend with
-  **diego@detailvice.com**, and test emails will arrive fine.
+  email that owns your Resend account — leads are delivered to
+  **dcarrillo0422@gmail.com**, which is the email the Resend account/API key is set
+  up under, so test emails will arrive fine.
 - **For production (recommended):** in Resend, go to **Domains → Add Domain**,
   add `landscapingprosofventura.com` (or `detailvice.com`), and add the DNS
   records it gives you. Once verified, set:

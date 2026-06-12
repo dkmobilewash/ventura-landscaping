@@ -9,7 +9,7 @@
 //                         Use a verified-domain address once your domain is set up,
 //                         e.g. "Landscaping Pros Of Ventura <leads@landscapingprosofventura.com>"
 
-const TO = process.env.LEAD_TO_EMAIL || 'diego@detailvice.com';
+const TO = process.env.LEAD_TO_EMAIL || 'dcarrillo0422@gmail.com';
 const FROM = process.env.LEAD_FROM_EMAIL || 'Landscaping Pros Website <onboarding@resend.dev>';
 
 const escape = (v = '') =>
