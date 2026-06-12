@@ -130,7 +130,7 @@ export default function LocationPageTemplate({ slug, data }) {
       </section>
 
       <CTABanner
-        headline={`Call (805) 833-0167 for a Free Quote in ${data.name}`}
+        headline={`Call (805) 608-2641 for a Free Quote in ${data.name}`}
         subtext={`Ready to upgrade your ${data.name} property? Reach out today and our local team will get right back to you.`}
       />
 

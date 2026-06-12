@@ -33,7 +33,7 @@ const trust = [
 const faqs = [
   { q: 'What areas does Landscaping Pros Of Ventura serve?', a: 'We serve all of Ventura County, including Ventura, Oxnard, Channel Islands, Camarillo, Saticoy, and Santa Paula — both residential and commercial properties.' },
   { q: 'Are you licensed and insured?', a: 'Yes. We are fully licensed and insured, and we are happy to provide documentation for homeowners, property managers, and HOA boards.' },
-  { q: 'Do you offer free quotes?', a: 'Absolutely. We provide free, no-pressure estimates. Call (805) 833-0167 or request a quote online and we’ll respond within one business day.' },
+  { q: 'Do you offer free quotes?', a: 'Absolutely. We provide free, no-pressure estimates. Call (805) 608-2641 or request a quote online and we’ll respond within one business day.' },
   { q: 'Can you help me lower my water usage?', a: 'Yes — drought-tolerant design, artificial turf, drip irrigation, and smart controllers are some of our most popular services for cutting water bills in Ventura County.' },
   { q: 'Do you offer recurring maintenance plans?', a: 'We do. Most clients choose weekly or monthly maintenance with the same crew each visit. We also handle one-time projects and cleanups.' },
 ];
@@ -69,7 +69,7 @@ export default function Home() {
     <>
       <SEOHead
         title="Professional Landscaping Services in Ventura County | Landscaping Pros Of Ventura"
-        description="Landscaping Pros Of Ventura provides expert lawn care, landscape design, irrigation, artificial turf, outdoor kitchens, tree trimming, and more across Ventura County, CA. Call (805) 833-0167."
+        description="Landscaping Pros Of Ventura provides expert lawn care, landscape design, irrigation, artificial turf, outdoor kitchens, tree trimming, and more across Ventura County, CA. Call (805) 608-2641."
         canonical="/"
         jsonLd={[localBusinessJsonLd, websiteJsonLd, faqJsonLd(faqs)]}
       />

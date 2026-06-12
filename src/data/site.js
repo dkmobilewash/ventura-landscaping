@@ -1,11 +1,11 @@
 // Global business information and navigation structure.
 // NOTE: The brand phone number used across every CTA, meta description and the
-// build checklist is (805) 833-0167 -> tel:8058330167. We use it consistently.
+// build checklist is (805) 608-2641 -> tel:8056082641. We use it consistently.
 
 export const business = {
   name: 'Landscaping Pros Of Ventura',
-  phoneDisplay: '(805) 833-0167',
-  phoneHref: 'tel:8058330167',
+  phoneDisplay: '(805) 608-2641',
+  phoneHref: 'tel:8056082641',
   email: 'info@landscapingprosofventura.com',
   street: 'Eastman Ave',
   city: 'Ventura',

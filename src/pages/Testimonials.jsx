@@ -54,7 +54,7 @@ export default function Testimonials() {
 
       <CTABanner
         headline="Ready To Join Our Happy Customers?"
-        subtext="Call (805) 833-0167 for your free quote and find out why Ventura County homeowners choose us."
+        subtext="Call (805) 608-2641 for your free quote and find out why Ventura County homeowners choose us."
       />
     </>
   );

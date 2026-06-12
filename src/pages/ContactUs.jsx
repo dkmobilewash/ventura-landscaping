@@ -28,8 +28,8 @@ export default function ContactUs() {
   return (
     <>
       <SEOHead
-        title="Contact Landscaping Pros Of Ventura | Free Quote | (805) 833-0167"
-        description="Contact Landscaping Pros Of Ventura for a free landscaping quote. Call (805) 833-0167 or fill out our form. Serving Ventura, Oxnard, Camarillo, and all of Ventura County."
+        title="Contact Landscaping Pros Of Ventura | Free Quote | (805) 608-2641"
+        description="Contact Landscaping Pros Of Ventura for a free landscaping quote. Call (805) 608-2641 or fill out our form. Serving Ventura, Oxnard, Camarillo, and all of Ventura County."
         canonical="/contact-us"
         jsonLd={[localBusinessJsonLd, breadcrumbJsonLd(crumbs)]}
       />
