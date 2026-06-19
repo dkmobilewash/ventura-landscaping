@@ -5,7 +5,7 @@ import FAQSection, { faqJsonLd } from './FAQSection';
 import CTABanner from './CTABanner';
 import LocationLinks from './LocationLinks';
 import { Link } from 'react-router-dom';
-import { business, nav } from '../data/site';
+import { business, nav, localBusinessNode, businessId } from '../data/site';
 
 const PROCESS = [
   { step: 'Consult', text: 'We walk your property, listen to your goals, and discuss budget and timeline — no pressure, no jargon.' },
@@ -41,12 +41,8 @@ export default function ServicePageTemplate({ slug, data }) {
     serviceType: data.category,
     description: data.meta,
     areaServed: { '@type': 'AdministrativeArea', name: 'Ventura County, CA' },
-    provider: {
-      '@type': 'LocalBusiness',
-      name: business.name,
-      telephone: business.phoneDisplay,
-      url: business.url,
-    },
+    // Linked to the LocalBusiness entity defined in the same page graph.
+    provider: { '@type': 'LandscapingBusiness', '@id': businessId },
   };
 
   return (
@@ -55,7 +51,12 @@ export default function ServicePageTemplate({ slug, data }) {
         title={data.title}
         description={data.meta}
         canonical={path}
-        jsonLd={[serviceJsonLd, faqJsonLd(data.faqs), breadcrumbJsonLd(crumbs)]}
+        jsonLd={[
+          localBusinessNode({ '@context': 'https://schema.org', image: data.image }),
+          serviceJsonLd,
+          faqJsonLd(data.faqs),
+          breadcrumbJsonLd(crumbs),
+        ]}
       />
 
       <HeroSection
@@ -76,6 +77,13 @@ export default function ServicePageTemplate({ slug, data }) {
             {data.intro.map((p, i) => (
               <p key={i}>{p}</p>
             ))}
+            <p>
+              We bring this service to homeowners across Ventura County, including{' '}
+              <Link to="/ventura">Ventura</Link>, <Link to="/oxnard">Oxnard</Link>,{' '}
+              <Link to="/camarillo">Camarillo</Link>,{' '}
+              <Link to="/thousand-oaks">Thousand Oaks</Link>, <Link to="/ojai">Ojai</Link>, and{' '}
+              <Link to="/moorpark">Moorpark</Link>.
+            </p>
             <a className="btn btn--primary mt-1" href={business.phoneHref}>
               Call {business.phoneDisplay}
             </a>

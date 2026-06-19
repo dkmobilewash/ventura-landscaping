@@ -15,8 +15,8 @@ export default function Footer() {
             <Link to="/" className="logo">
               <img className="logo__mark" src="/favicon.svg" alt="" aria-hidden="true" />
               <span>
-                Landscaping Pros
-                <small>Of Ventura</small>
+                Ventura Landscape
+                <small>&amp; Design</small>
               </span>
             </Link>
             <p style={{ marginTop: '1rem' }}>

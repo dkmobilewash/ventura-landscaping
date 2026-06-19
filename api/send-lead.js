@@ -7,10 +7,10 @@
 //   LEAD_TO_EMAIL       - where leads are delivered (default: dcarrillo0422@gmail.com)
 //   LEAD_FROM_EMAIL     - verified Resend sender (default: onboarding@resend.dev)
 //                         Use a verified-domain address once your domain is set up,
-//                         e.g. "Landscaping Pros Of Ventura <leads@landscapingprosofventura.com>"
+//                         e.g. "Ventura Landscape & Design <leads@venturalandscapeanddesign.com>"
 
 const TO = process.env.LEAD_TO_EMAIL || 'dcarrillo0422@gmail.com';
-const FROM = process.env.LEAD_FROM_EMAIL || 'Landscaping Pros Website <onboarding@resend.dev>';
+const FROM = process.env.LEAD_FROM_EMAIL || 'Ventura Landscape & Design Website <onboarding@resend.dev>';
 
 const escape = (v = '') =>
   String(v)
@@ -73,7 +73,7 @@ export default async function handler(req, res) {
   const html = `
     <div style="font-family:Arial,Helvetica,sans-serif;max-width:600px;margin:auto;color:#1e1e1e">
       <h2 style="color:#2d6a2d;margin:0 0 4px">${isJob ? 'New Job Application' : 'New Quote Request'}</h2>
-      <p style="color:#5a5f57;margin:0 0 16px">Submitted via landscapingprosofventura.com</p>
+      <p style="color:#5a5f57;margin:0 0 16px">Submitted via venturalandscapeanddesign.com</p>
       <table style="width:100%;border-collapse:collapse">
         ${rows
           .map(

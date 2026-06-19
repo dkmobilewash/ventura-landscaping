@@ -2,42 +2,25 @@ import SEOHead from '../components/SEOHead';
 import HeroSection from '../components/HeroSection';
 import Breadcrumb, { breadcrumbJsonLd } from '../components/Breadcrumb';
 import ContactForm from '../components/ContactForm';
-import { business, cities } from '../data/site';
+import { business, cities, localBusinessNode } from '../data/site';
 
 export default function ContactUs() {
   const crumbs = [{ label: 'Home', to: '/' }, { label: 'Contact Us' }];
-  const localBusinessJsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
-    name: business.name,
-    telephone: business.phoneDisplay,
-    email: business.email,
-    url: `${business.url}/contact-us`,
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: business.street,
-      addressLocality: business.city,
-      addressRegion: business.state,
-      postalCode: business.zip,
-      addressCountry: 'US',
-    },
-    areaServed: cities.map((c) => ({ '@type': 'City', name: `${c.name}, CA` })),
-    priceRange: '$$',
-  };
+  const localBusinessJsonLd = localBusinessNode({ '@context': 'https://schema.org' });
 
   return (
     <>
       <SEOHead
-        title="Contact Landscaping Pros Of Ventura | Free Quote | (805) 608-2641"
-        description="Contact Landscaping Pros Of Ventura for a free landscaping quote. Call (805) 608-2641 or fill out our form. Serving Ventura, Oxnard, Camarillo, and all of Ventura County."
+        title="Contact Ventura Landscape & Design | Free Quote | (805) 429-4491"
+        description="Contact Ventura Landscape & Design for landscaping in Ventura County, CA. Request a free estimate online or call 805-429-4491 today."
         canonical="/contact-us"
         jsonLd={[localBusinessJsonLd, breadcrumbJsonLd(crumbs)]}
       />
       <HeroSection
-        title="Contact Landscaping Pros Of Ventura"
+        title="Contact Ventura Landscape & Design"
         subtitle="Ready for a free quote? Call us or send a message and we’ll get right back to you — usually within one business day."
         backgroundImage="https://media.istockphoto.com/id/2155899861/photo/backyard-pool-in-a-verdant-garden-setting-in-a-modern-new-construction-home-in-los-angeles.jpg?s=612x612&w=0&k=20&c=KPb4CssXWXTPInXz7SKEvk30Ilh7UOsq3nLeuMWnkNo="
-        backgroundAlt="Contact Landscaping Pros Of Ventura for a free quote"
+        backgroundAlt="Contact Ventura Landscape & Design for a free quote"
       />
       <Breadcrumb crumbs={crumbs} />
 

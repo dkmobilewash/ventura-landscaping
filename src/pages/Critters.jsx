@@ -22,7 +22,7 @@ const faqs = [
   { q: 'What’s the best way to stop gophers?', a: 'A combination of targeted control on active burrows and prevention — installing gopher baskets at planting time is by far the best protection for valuable plants.' },
   { q: 'Do you use safe, responsible methods?', a: 'Yes. We follow an integrated pest management approach, choosing the least-toxic effective option first to protect pollinators, pets, and your family.' },
   { q: 'Can you protect new plantings from animals?', a: 'Absolutely. We build protection in at install time with baskets, trunk guards, fencing, and smart plant placement so animals don’t undo your investment.' },
-  { q: 'Is critter control part of your maintenance?', a: 'It can be. Our crews monitor for animal and pest activity on every visit and address problems early. Call (805) 608-2641 to learn more.' },
+  { q: 'Is critter control part of your maintenance?', a: 'It can be. Our crews monitor for animal and pest activity on every visit and address problems early. Call (805) 429-4491 to learn more.' },
 ];
 
 export default function Critters() {
@@ -30,8 +30,8 @@ export default function Critters() {
   return (
     <>
       <SEOHead
-        title="Critters We Encounter in Ventura County Landscapes | Landscaping Pros Of Ventura"
-        description="From gophers to ground squirrels, our Ventura County landscapers know how to handle the critters that damage lawns and gardens. Learn more."
+        title="Critters We Encounter in Ventura County Landscapes | Ventura Landscape & Design"
+        description="From gophers to ground squirrels, our Ventura County crews handle the critters that damage lawns and gardens. Prevention and control — call 805-429-4491."
         canonical="/critters-we-encounter"
         jsonLd={[faqJsonLd(faqs), breadcrumbJsonLd(crumbs)]}
       />
@@ -76,7 +76,7 @@ export default function Critters() {
       <FAQSection faqs={faqs} heading="Critter & Pest FAQ" />
       <CTABanner
         headline="Protect Your Landscape From Critters"
-        subtext="Dealing with gophers, grubs, or nightly digging? Call (805) 608-2641 and we’ll help you take your yard back."
+        subtext="Dealing with gophers, grubs, or nightly digging? Call (805) 429-4491 and we’ll help you take your yard back."
       />
     </>
   );

@@ -41,6 +41,12 @@ import LocationChannelIslands from './pages/LocationChannelIslands';
 import LocationCamarillo from './pages/LocationCamarillo';
 import LocationSaticoy from './pages/LocationSaticoy';
 import LocationSantaPaula from './pages/LocationSantaPaula';
+import LocationPortHueneme from './pages/LocationPortHueneme';
+import LocationOjai from './pages/LocationOjai';
+import LocationThousandOaks from './pages/LocationThousandOaks';
+import LocationNewburyPark from './pages/LocationNewburyPark';
+import LocationMoorpark from './pages/LocationMoorpark';
+import LocationFillmore from './pages/LocationFillmore';
 
 export default function App() {
   return (
@@ -88,6 +94,12 @@ export default function App() {
           <Route path="/camarillo" element={<LocationCamarillo />} />
           <Route path="/saticoy" element={<LocationSaticoy />} />
           <Route path="/santa-paula" element={<LocationSantaPaula />} />
+          <Route path="/port-hueneme" element={<LocationPortHueneme />} />
+          <Route path="/ojai" element={<LocationOjai />} />
+          <Route path="/thousand-oaks" element={<LocationThousandOaks />} />
+          <Route path="/newbury-park" element={<LocationNewburyPark />} />
+          <Route path="/moorpark" element={<LocationMoorpark />} />
+          <Route path="/fillmore" element={<LocationFillmore />} />
 
           {/* 404 */}
           <Route path="*" element={<NotFound />} />

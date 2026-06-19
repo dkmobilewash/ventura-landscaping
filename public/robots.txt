@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://landscapingprosofventura.com/sitemap.xml
+Sitemap: https://venturalandscapeanddesign.com/sitemap.xml

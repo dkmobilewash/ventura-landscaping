@@ -50,13 +50,13 @@ export default function JobOpportunities() {
   return (
     <>
       <SEOHead
-        title="Landscaping Jobs in Ventura County | Landscaping Pros Of Ventura"
-        description="Join the Landscaping Pros Of Ventura team. We're hiring landscapers, irrigation techs, and crew leads in Ventura County. Apply today."
+        title="Landscaping Jobs in Ventura County | Ventura Landscape & Design"
+        description="Join the Ventura Landscape & Design team. We're hiring landscapers, irrigation techs, and crew leads in Ventura County, CA. Apply today: 805-429-4491."
         canonical="/job-opportunities"
         jsonLd={breadcrumbJsonLd(crumbs)}
       />
       <HeroSection
-        title="Join The Landscaping Pros Of Ventura Team"
+        title="Join The Ventura Landscape & Design Team"
         subtitle="We’re hiring hardworking, reliable people who take pride in their work. Build a career outdoors with a respected local company."
         backgroundImage="https://media.istockphoto.com/id/2150853972/photo/green-grass-cutting-with-lawn-mower-in-home-garden.jpg?s=612x612&w=0&k=20&c=EzSmAvWSwnbVbJxJP6fsMIDbGnPDmJ_VgpBUVUbO1aM="
         backgroundAlt="Landscaping crew working in Ventura County"
