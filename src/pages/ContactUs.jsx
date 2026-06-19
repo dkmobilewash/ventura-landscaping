@@ -12,7 +12,7 @@ export default function ContactUs() {
     <>
       <SEOHead
         title="Contact Ventura Landscape & Design | Free Quote | (805) 429-4491"
-        description="Contact Ventura Landscape & Design for a free landscaping quote. Call (805) 429-4491 or fill out our form. Serving Ventura, Oxnard, Camarillo, and all of Ventura County."
+        description="Contact Ventura Landscape & Design for landscaping in Ventura County, CA. Request a free estimate online or call 805-429-4491 today."
         canonical="/contact-us"
         jsonLd={[localBusinessJsonLd, breadcrumbJsonLd(crumbs)]}
       />

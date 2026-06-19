@@ -34,7 +34,7 @@ export default function MonthlyCalendar() {
     <>
       <SEOHead
         title="Monthly Landscaping To-Do Calendar for Ventura County | Ventura Landscape & Design"
-        description="A month-by-month landscaping guide for Ventura County homeowners. Learn what to plant, prune, water, and fertilize each month of the year."
+        description="A month-by-month landscaping guide for Ventura County homeowners — what to plant, prune, water, and fertilize all year. Free estimates — call 805-429-4491."
         canonical="/monthly-landscaping-to-do-calendar"
         jsonLd={[faqJsonLd(faqs), breadcrumbJsonLd(crumbs)]}
       />

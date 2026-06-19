@@ -31,7 +31,7 @@ export default function Critters() {
     <>
       <SEOHead
         title="Critters We Encounter in Ventura County Landscapes | Ventura Landscape & Design"
-        description="From gophers to ground squirrels, our Ventura County landscapers know how to handle the critters that damage lawns and gardens. Learn more."
+        description="From gophers to ground squirrels, our Ventura County crews handle the critters that damage lawns and gardens. Prevention and control — call 805-429-4491."
         canonical="/critters-we-encounter"
         jsonLd={[faqJsonLd(faqs), breadcrumbJsonLd(crumbs)]}
       />

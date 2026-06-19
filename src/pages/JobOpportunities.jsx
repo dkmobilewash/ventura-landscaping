@@ -51,7 +51,7 @@ export default function JobOpportunities() {
     <>
       <SEOHead
         title="Landscaping Jobs in Ventura County | Ventura Landscape & Design"
-        description="Join the Ventura Landscape & Design team. We're hiring landscapers, irrigation techs, and crew leads in Ventura County. Apply today."
+        description="Join the Ventura Landscape & Design team. We're hiring landscapers, irrigation techs, and crew leads in Ventura County, CA. Apply today: 805-429-4491."
         canonical="/job-opportunities"
         jsonLd={breadcrumbJsonLd(crumbs)}
       />

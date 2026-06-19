@@ -18,7 +18,7 @@ export default function Testimonials() {
     <>
       <SEOHead
         title="Customer Reviews | Ventura Landscape & Design"
-        description="Read real reviews from Ventura County homeowners who trust Ventura Landscape & Design for lawn care, landscape design, irrigation, and more."
+        description="Read reviews from Ventura County homeowners who trust Ventura Landscape & Design for design, irrigation, and maintenance. Free estimates — call 805-429-4491."
         canonical="/testimonials"
         jsonLd={breadcrumbJsonLd(crumbs)}
       />

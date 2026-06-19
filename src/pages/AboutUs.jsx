@@ -24,7 +24,7 @@ export default function AboutUs() {
     <>
       <SEOHead
         title="About Ventura Landscape & Design | Local Ventura County Landscapers"
-        description="Learn about Ventura Landscape & Design — a trusted local landscaping company serving Ventura County homeowners and businesses with quality lawn care, design, and maintenance."
+        description="Meet Ventura Landscape & Design — a local, family-minded team serving Ventura County, CA with design, hardscaping, and maintenance. Call 805-429-4491."
         canonical="/about-us"
         jsonLd={breadcrumbJsonLd(crumbs)}
       />

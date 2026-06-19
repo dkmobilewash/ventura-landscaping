@@ -54,7 +54,7 @@ export default function Home() {
     <>
       <SEOHead
         title="Professional Landscaping Services in Ventura County | Ventura Landscape & Design"
-        description="Ventura Landscape & Design provides expert lawn care, landscape design, irrigation, artificial turf, outdoor kitchens, tree trimming, and more across Ventura County, CA. Call (805) 429-4491."
+        description="Ventura Landscape & Design offers design, hardscaping, irrigation, turf, and maintenance across Ventura County, CA. Free estimates — call 805-429-4491."
         canonical="/"
         jsonLd={[localBusinessJsonLd, websiteJsonLd, faqJsonLd(faqs)]}
       />
