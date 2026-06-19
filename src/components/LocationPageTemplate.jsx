@@ -5,7 +5,7 @@ import FAQSection, { faqJsonLd } from './FAQSection';
 import CTABanner from './CTABanner';
 import ServiceCard from './ServiceCard';
 import LocationLinks from './LocationLinks';
-import { business } from '../data/site';
+import { business, localBusinessNode } from '../data/site';
 
 // Services highlighted on every location page (8 cards with links).
 const LOCAL_SERVICES = [
@@ -26,24 +26,14 @@ export default function LocationPageTemplate({ slug, data }) {
     { label: data.name },
   ];
 
-  const localBusinessJsonLd = {
+  const localBusinessJsonLd = localBusinessNode({
     '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
+    '@id': `${business.url}${slug}#business`,
     name: `${business.name} — ${data.name}`,
     image: data.image,
-    telephone: business.phoneDisplay,
     url: `${business.url}${slug}`,
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: business.street,
-      addressLocality: business.city,
-      addressRegion: business.state,
-      postalCode: business.zip,
-      addressCountry: 'US',
-    },
     areaServed: { '@type': 'City', name: `${data.name}, CA` },
-    priceRange: '$$',
-  };
+  });
 
   return (
     <>
@@ -130,7 +120,7 @@ export default function LocationPageTemplate({ slug, data }) {
       </section>
 
       <CTABanner
-        headline={`Call (805) 608-2641 for a Free Quote in ${data.name}`}
+        headline={`Call (805) 429-4491 for a Free Quote in ${data.name}`}
         subtext={`Ready to upgrade your ${data.name} property? Reach out today and our local team will get right back to you.`}
       />
 
@@ -145,7 +135,7 @@ export default function LocationPageTemplate({ slug, data }) {
 
       <CTABanner
         headline={`The Local Choice for ${data.name} Landscaping`}
-        subtext={`From lawn care to full outdoor living spaces, Landscaping Pros Of Ventura is here to help. Call ${business.phoneDisplay} today.`}
+        subtext={`From lawn care to full outdoor living spaces, Ventura Landscape & Design is here to help. Call ${business.phoneDisplay} today.`}
       />
     </>
   );

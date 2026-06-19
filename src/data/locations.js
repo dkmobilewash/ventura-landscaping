@@ -5,8 +5,8 @@ export const locations = {
   '/ventura': {
     name: 'Ventura',
     h1: 'Landscaping Services in Ventura, CA',
-    title: 'Landscaping Services in Ventura, CA | Landscaping Pros Of Ventura',
-    meta: 'Expert landscaping, lawn care, irrigation, and landscape design in Ventura, CA. Serving homeowners and businesses throughout the city. Call (805) 608-2641.',
+    title: 'Landscaping Services in Ventura, CA | Ventura Landscape & Design',
+    meta: 'Expert landscaping, lawn care, irrigation, and landscape design in Ventura, CA. Serving homeowners and businesses throughout the city. Call (805) 429-4491.',
     image: 'https://media.istockphoto.com/id/2245287606/photo/modern-minimalist-garden-with-stepping-stones-and-colorful-flowers.jpg?s=612x612&w=0&k=20&c=UU-UJNNEVZ_iwImfCpDex-Y0zGXA8h39qWBs2xUGsSY=',
     imageAlt: 'Professional landscaping for a home in Ventura, CA',
     heroSubtitle: 'Your local Ventura landscapers for lawn care, design, irrigation, and outdoor living — built for our coastal climate.',
@@ -16,7 +16,7 @@ export const locations = {
     ],
     whyTitle: 'Why Ventura Homeowners Choose Us',
     why: [
-      'We are based right here on Eastman Ave, which means fast response times and crews that genuinely know Ventura. We are not a far-off company squeezing in a stop — this is our backyard.',
+      'We are based right here on 1507 Callens Rd H, which means fast response times and crews that genuinely know Ventura. We are not a far-off company squeezing in a stop — this is our backyard.',
       'From salt-tolerant coastal plantings near the beach to drought-smart designs in the hills, we tailor every project to the specific block it sits on.',
     ],
     localParagraph:
@@ -33,8 +33,8 @@ export const locations = {
   '/oxnard': {
     name: 'Oxnard',
     h1: 'Landscaping Services in Oxnard, CA',
-    title: 'Landscaping Services in Oxnard, CA | Landscaping Pros Of Ventura',
-    meta: 'Professional landscaping and lawn maintenance in Oxnard, CA. Drought-tolerant designs, turf, irrigation, and more. Call (805) 608-2641.',
+    title: 'Landscaping Services in Oxnard, CA | Ventura Landscape & Design',
+    meta: 'Professional landscaping and lawn maintenance in Oxnard, CA. Drought-tolerant designs, turf, irrigation, and more. Call (805) 429-4491.',
     image: 'https://media.istockphoto.com/id/2155899861/photo/backyard-pool-in-a-verdant-garden-setting-in-a-modern-new-construction-home-in-los-angeles.jpg?s=612x612&w=0&k=20&c=KPb4CssXWXTPInXz7SKEvk30Ilh7UOsq3nLeuMWnkNo=',
     imageAlt: 'Landscaped residential yard in Oxnard, CA',
     heroSubtitle: 'Full-service landscaping for Oxnard homes — from large residential lots to water-wise turf and irrigation.',
@@ -61,8 +61,8 @@ export const locations = {
   '/channel-islands': {
     name: 'Channel Islands',
     h1: 'Landscaping Services in Channel Islands, CA',
-    title: 'Landscaping Services in Channel Islands, CA | Landscaping Pros Of Ventura',
-    meta: 'Landscaping and yard maintenance for Channel Islands area residents. Lawn care, irrigation, and outdoor living design. Call (805) 608-2641.',
+    title: 'Landscaping Services in Channel Islands, CA | Ventura Landscape & Design',
+    meta: 'Landscaping and yard maintenance for Channel Islands area residents. Lawn care, irrigation, and outdoor living design. Call (805) 429-4491.',
     image: 'https://media.istockphoto.com/id/2168487231/photo/large-gray-pergola-on-pavers-with-stone-fireplace-and-waterfall-urns-for-backyard-oasis.jpg?s=612x612&w=0&k=20&c=r73pWzPWRGdZ7yl12LXrDZsErUIk1UEywS8P-NHW-Aw=',
     imageAlt: 'Waterfront-area landscaping near Channel Islands Harbor, CA',
     heroSubtitle: 'Coastal landscaping built for the Channel Islands Harbor lifestyle — wind- and salt-tolerant, beautiful, and low-maintenance.',
@@ -89,8 +89,8 @@ export const locations = {
   '/camarillo': {
     name: 'Camarillo',
     h1: 'Landscaping Services in Camarillo, CA',
-    title: 'Landscaping Services in Camarillo, CA | Landscaping Pros Of Ventura',
-    meta: 'Quality landscaping and lawn care in Camarillo, CA. Serving homes and HOA communities with expert irrigation, turf, and maintenance. Call (805) 608-2641.',
+    title: 'Landscaping Services in Camarillo, CA | Ventura Landscape & Design',
+    meta: 'Quality landscaping and lawn care in Camarillo, CA. Serving homes and HOA communities with expert irrigation, turf, and maintenance. Call (805) 429-4491.',
     image: 'https://media.istockphoto.com/id/471348728/photo/image-of-raised-garden-beds-with-flagstone-paving-patio-wheelchair-friendly.jpg?s=612x612&w=0&k=20&c=P2d0dSsrC8J1ZTIjHtPoyBM4tvVu8L0H2Rx3zvC9uAQ=',
     imageAlt: 'Landscaped home in a Camarillo, CA planned community',
     heroSubtitle: 'Landscaping for Camarillo homes and HOA communities — polished, water-wise, and dependable.',
@@ -117,8 +117,8 @@ export const locations = {
   '/saticoy': {
     name: 'Saticoy',
     h1: 'Landscaping Services in Saticoy, CA',
-    title: 'Landscaping Services in Saticoy, CA | Landscaping Pros Of Ventura',
-    meta: "Dependable landscaping and lawn maintenance in Saticoy, CA. Ventura County's local pros for yard care, trees, and outdoor design. Call (805) 608-2641.",
+    title: 'Landscaping Services in Saticoy, CA | Ventura Landscape & Design',
+    meta: "Dependable landscaping and lawn maintenance in Saticoy, CA. Ventura County's local pros for yard care, trees, and outdoor design. Call (805) 429-4491.",
     image: 'https://media.istockphoto.com/id/2201667120/photo/beautiful-lawn-and-garden-path-in-a-uk-park-or-garden.jpg?s=612x612&w=0&k=20&c=93He--cEoPeNBqstGwNz4F0BWScm0A_uCb0jWaLQqFU=',
     imageAlt: 'Maintained landscaping on a larger property in Saticoy, CA',
     heroSubtitle: 'Landscaping for Saticoy’s larger, rural-feel properties — yard care, trees, and full-service maintenance.',
@@ -145,8 +145,8 @@ export const locations = {
   '/santa-paula': {
     name: 'Santa Paula',
     h1: 'Landscaping Services in Santa Paula, CA',
-    title: 'Landscaping Services in Santa Paula, CA | Landscaping Pros Of Ventura',
-    meta: 'Landscaping, tree care, and yard maintenance in Santa Paula, CA. Local Ventura County experts. Call Landscaping Pros Of Ventura at (805) 608-2641.',
+    title: 'Landscaping Services in Santa Paula, CA | Ventura Landscape & Design',
+    meta: 'Landscaping, tree care, and yard maintenance in Santa Paula, CA. Local Ventura County experts. Call Ventura Landscape & Design at (805) 429-4491.',
     image: 'https://media.istockphoto.com/id/2219130077/photo/arborist-climbing-a-tree-with-a-ladder.jpg?s=612x612&w=0&k=20&c=iyqf8m9Hzt9VcBnB4zE6GwYw8SW0K5lwt9jLqbAr6I8=',
     imageAlt: 'Tree care and landscaping for a historic home in Santa Paula, CA',
     heroSubtitle: 'Landscaping and tree care for Santa Paula’s historic homes and citrus-country setting — inland-climate experts.',

@@ -34,7 +34,7 @@ export default function ContactForm({ defaultService = '', defaultCity = '' }) {
       setSubmitted(true);
     } catch (err) {
       setError(
-        `${err.message} Please try again, or call us directly at (805) 608-2641.`
+        `${err.message} Please try again, or call us directly at (805) 429-4491.`
       );
     } finally {
       setSending(false);
@@ -47,7 +47,7 @@ export default function ContactForm({ defaultService = '', defaultCity = '' }) {
         <h3>Thank you! 🌿</h3>
         <p style={{ marginBottom: 0 }}>
           We received your request and we’ll be in touch within 1 business day. Need help sooner?
-          Call us anytime at <strong>(805) 608-2641</strong>.
+          Call us anytime at <strong>(805) 429-4491</strong>.
         </p>
       </div>
     );

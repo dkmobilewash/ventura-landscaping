@@ -17,8 +17,8 @@ export default function Testimonials() {
   return (
     <>
       <SEOHead
-        title="Customer Reviews | Landscaping Pros Of Ventura"
-        description="Read real reviews from Ventura County homeowners who trust Landscaping Pros Of Ventura for lawn care, landscape design, irrigation, and more."
+        title="Customer Reviews | Ventura Landscape & Design"
+        description="Read real reviews from Ventura County homeowners who trust Ventura Landscape & Design for lawn care, landscape design, irrigation, and more."
         canonical="/testimonials"
         jsonLd={breadcrumbJsonLd(crumbs)}
       />
@@ -54,7 +54,7 @@ export default function Testimonials() {
 
       <CTABanner
         headline="Ready To Join Our Happy Customers?"
-        subtext="Call (805) 608-2641 for your free quote and find out why Ventura County homeowners choose us."
+        subtext="Call (805) 429-4491 for your free quote and find out why Ventura County homeowners choose us."
       />
     </>
   );

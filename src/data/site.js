@@ -1,13 +1,13 @@
 // Global business information and navigation structure.
 // NOTE: The brand phone number used across every CTA, meta description and the
-// build checklist is (805) 608-2641 -> tel:8056082641. We use it consistently.
+// build checklist is (805) 429-4491 -> tel:8054294491. We use it consistently.
 
 export const business = {
-  name: 'Landscaping Pros Of Ventura',
-  phoneDisplay: '(805) 608-2641',
-  phoneHref: 'tel:8056082641',
-  email: 'info@landscapingprosofventura.com',
-  street: 'Eastman Ave',
+  name: 'Ventura Landscape & Design',
+  phoneDisplay: '(805) 429-4491',
+  phoneHref: 'tel:8054294491',
+  email: 'info@venturalandscapeanddesign.com',
+  street: '1507 Callens Rd H',
   city: 'Ventura',
   state: 'CA',
   zip: '93003',
@@ -15,8 +15,54 @@ export const business = {
   url: 'https://venturalandscapeanddesign.com',
   geo: { lat: 34.2746, lng: -119.2290 },
   hours: 'Mon–Sat 7:00am–6:00pm',
+  // E.164 phone for schema telephone fields.
+  phoneE164: '+18054294491',
+  // Structured opening hours for schema.org openingHoursSpecification.
+  hoursSpec: {
+    days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+    opens: '07:00',
+    closes: '18:00',
+  },
   founded: 2009,
 };
+
+// Reusable schema.org LocalBusiness node. A stable @id lets other JSON-LD
+// blocks (Service.provider, location pages) reference this single entity
+// instead of duplicating NAP data.
+export const businessId = `${business.url}/#business`;
+
+export function localBusinessNode(extra = {}) {
+  return {
+    '@type': 'LandscapingBusiness',
+    '@id': businessId,
+    name: business.name,
+    telephone: business.phoneE164,
+    email: business.email,
+    url: business.url,
+    priceRange: '$$',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: business.street,
+      addressLocality: business.city,
+      addressRegion: business.state,
+      postalCode: business.zip,
+      addressCountry: 'US',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: business.geo.lat,
+      longitude: business.geo.lng,
+    },
+    areaServed: { '@type': 'AdministrativeArea', name: 'Ventura County, CA' },
+    openingHoursSpecification: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: business.hoursSpec.days,
+      opens: business.hoursSpec.opens,
+      closes: business.hoursSpec.closes,
+    },
+    ...extra,
+  };
+}
 
 // The six cities we serve (used for areaServed, footers, location links).
 export const cities = [

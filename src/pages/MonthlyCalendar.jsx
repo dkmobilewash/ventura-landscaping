@@ -25,7 +25,7 @@ const faqs = [
   { q: 'How should I adjust watering through the year?', a: 'Water more frequently in late spring and summer, then taper off in fall and winter. A smart, weather-based controller handles these seasonal shifts automatically.' },
   { q: 'When should I prune my trees?', a: 'Most deciduous and fruit trees are best pruned in winter dormancy (January–February). Spring bloomers are pruned right after they flower.' },
   { q: 'When can I tackle weeds most effectively?', a: 'Apply pre-emergent weed control in late winter (February) before weeds sprout, then stay on top of any that appear through spring and summer.' },
-  { q: 'Can you handle this seasonal work for me?', a: 'Absolutely. Our maintenance plans build this month-by-month care right into your service so you never have to track it yourself. Call (805) 608-2641.' },
+  { q: 'Can you handle this seasonal work for me?', a: 'Absolutely. Our maintenance plans build this month-by-month care right into your service so you never have to track it yourself. Call (805) 429-4491.' },
 ];
 
 export default function MonthlyCalendar() {
@@ -33,7 +33,7 @@ export default function MonthlyCalendar() {
   return (
     <>
       <SEOHead
-        title="Monthly Landscaping To-Do Calendar for Ventura County | Landscaping Pros Of Ventura"
+        title="Monthly Landscaping To-Do Calendar for Ventura County | Ventura Landscape & Design"
         description="A month-by-month landscaping guide for Ventura County homeowners. Learn what to plant, prune, water, and fertilize each month of the year."
         canonical="/monthly-landscaping-to-do-calendar"
         jsonLd={[faqJsonLd(faqs), breadcrumbJsonLd(crumbs)]}
@@ -75,7 +75,7 @@ export default function MonthlyCalendar() {
       <FAQSection faqs={faqs} heading="Seasonal Landscaping FAQ" />
       <CTABanner
         headline="Let Us Handle Your Year-Round Yard Care"
-        subtext="Skip the calendar — our maintenance plans keep your landscape on schedule every month. Call (805) 608-2641."
+        subtext="Skip the calendar — our maintenance plans keep your landscape on schedule every month. Call (805) 429-4491."
       />
     </>
   );

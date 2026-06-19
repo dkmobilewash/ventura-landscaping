@@ -5,7 +5,7 @@ import { business } from '../data/site';
 export default function NotFound() {
   return (
     <>
-      <SEOHead title="Page Not Found | Landscaping Pros Of Ventura" description="The page you’re looking for couldn’t be found." canonical="/404" />
+      <SEOHead title="Page Not Found | Ventura Landscape & Design" description="The page you’re looking for couldn’t be found." canonical="/404" />
       <section className="section" style={{ textAlign: 'center', minHeight: '50vh' }}>
         <div className="container">
           <p className="eyebrow">404</p>

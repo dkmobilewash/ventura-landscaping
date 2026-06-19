@@ -23,16 +23,16 @@ export default function AboutUs() {
   return (
     <>
       <SEOHead
-        title="About Landscaping Pros Of Ventura | Local Ventura County Landscapers"
-        description="Learn about Landscaping Pros Of Ventura — a trusted local landscaping company serving Ventura County homeowners and businesses with quality lawn care, design, and maintenance."
+        title="About Ventura Landscape & Design | Local Ventura County Landscapers"
+        description="Learn about Ventura Landscape & Design — a trusted local landscaping company serving Ventura County homeowners and businesses with quality lawn care, design, and maintenance."
         canonical="/about-us"
         jsonLd={breadcrumbJsonLd(crumbs)}
       />
       <HeroSection
-        title="About Landscaping Pros Of Ventura"
+        title="About Ventura Landscape & Design"
         subtitle="A local, family-minded landscaping company rooted in Ventura County — and committed to making your outdoor space beautiful."
         backgroundImage="https://media.istockphoto.com/id/2183289459/photo/design-of-landscaping-in-the-garden-park-square-recreation-area.jpg?s=612x612&w=0&k=20&c=A4nCdEJAAUGh9aqT4U3q-3NbAMupKhjLDG8abTeZI9M="
-        backgroundAlt="The Landscaping Pros Of Ventura team at work in Ventura County"
+        backgroundAlt="The Ventura Landscape & Design team at work in Ventura County"
       />
       <Breadcrumb crumbs={crumbs} />
 
@@ -42,7 +42,7 @@ export default function AboutUs() {
             <p className="eyebrow">Our Story</p>
             <h2>Local Roots, Ventura County Focus</h2>
             <p>
-              Landscaping Pros Of Ventura was founded in {business.founded} with a simple goal: give
+              Ventura Landscape & Design was founded in {business.founded} with a simple goal: give
               Ventura County homeowners a landscaping company they can actually count on. From our
               base on {business.street} in {business.city}, we’ve grown by doing great work and
               treating every property like our own.

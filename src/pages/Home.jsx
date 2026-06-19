@@ -6,7 +6,7 @@ import TestimonialsSection from '../components/TestimonialsSection';
 import FAQSection, { faqJsonLd } from '../components/FAQSection';
 import CTABanner from '../components/CTABanner';
 import LocationLinks from '../components/LocationLinks';
-import { business, cities } from '../data/site';
+import { business, localBusinessNode } from '../data/site';
 
 const categories = [
   { icon: '🌿', title: 'Yard Care & Maintenance', description: 'Mowing, edging, cleanups, tree care, fertilization, and dependable recurring maintenance.', link: '/yard-care-and-lawn-maintenance', linkText: 'Explore Yard Care' },
@@ -25,39 +25,24 @@ const featured = [
 
 const trust = [
   { icon: '🛡️', title: 'Licensed & Insured', text: 'Fully licensed and insured for your complete peace of mind.' },
-  { icon: '📍', title: 'Local Ventura County Experts', text: 'Based on Eastman Ave and serving our own backyard since 2009.' },
+  { icon: '📍', title: 'Local Ventura County Experts', text: 'Based on 1507 Callens Rd H and serving our own backyard since 2009.' },
   { icon: '🌵', title: 'Drought-Smart Landscaping', text: 'Water-wise design and irrigation built for our climate and rules.' },
   { icon: '⭐', title: 'Satisfaction Guaranteed', text: 'We treat your property like our own — every visit, every project.' },
 ];
 
 const faqs = [
-  { q: 'What areas does Landscaping Pros Of Ventura serve?', a: 'We serve all of Ventura County, including Ventura, Oxnard, Channel Islands, Camarillo, Saticoy, and Santa Paula — both residential and commercial properties.' },
+  { q: 'What areas does Ventura Landscape & Design serve?', a: 'We serve all of Ventura County, including Ventura, Oxnard, Channel Islands, Camarillo, Saticoy, and Santa Paula — both residential and commercial properties.' },
   { q: 'Are you licensed and insured?', a: 'Yes. We are fully licensed and insured, and we are happy to provide documentation for homeowners, property managers, and HOA boards.' },
-  { q: 'Do you offer free quotes?', a: 'Absolutely. We provide free, no-pressure estimates. Call (805) 608-2641 or request a quote online and we’ll respond within one business day.' },
+  { q: 'Do you offer free quotes?', a: 'Absolutely. We provide free, no-pressure estimates. Call (805) 429-4491 or request a quote online and we’ll respond within one business day.' },
   { q: 'Can you help me lower my water usage?', a: 'Yes — drought-tolerant design, artificial turf, drip irrigation, and smart controllers are some of our most popular services for cutting water bills in Ventura County.' },
   { q: 'Do you offer recurring maintenance plans?', a: 'We do. Most clients choose weekly or monthly maintenance with the same crew each visit. We also handle one-time projects and cleanups.' },
 ];
 
 export default function Home() {
-  const localBusinessJsonLd = {
+  const localBusinessJsonLd = localBusinessNode({
     '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
-    name: business.name,
     image: 'https://media.istockphoto.com/id/2245287606/photo/modern-minimalist-garden-with-stepping-stones-and-colorful-flowers.jpg?s=612x612&w=0&k=20&c=UU-UJNNEVZ_iwImfCpDex-Y0zGXA8h39qWBs2xUGsSY=',
-    telephone: business.phoneDisplay,
-    url: business.url,
-    priceRange: '$$',
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: business.street,
-      addressLocality: business.city,
-      addressRegion: business.state,
-      postalCode: business.zip,
-      addressCountry: 'US',
-    },
-    geo: { '@type': 'GeoCoordinates', latitude: business.geo.lat, longitude: business.geo.lng },
-    areaServed: cities.map((c) => ({ '@type': 'City', name: `${c.name}, CA` })),
-  };
+  });
   const websiteJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
@@ -68,8 +53,8 @@ export default function Home() {
   return (
     <>
       <SEOHead
-        title="Professional Landscaping Services in Ventura County | Landscaping Pros Of Ventura"
-        description="Landscaping Pros Of Ventura provides expert lawn care, landscape design, irrigation, artificial turf, outdoor kitchens, tree trimming, and more across Ventura County, CA. Call (805) 608-2641."
+        title="Professional Landscaping Services in Ventura County | Ventura Landscape & Design"
+        description="Ventura Landscape & Design provides expert lawn care, landscape design, irrigation, artificial turf, outdoor kitchens, tree trimming, and more across Ventura County, CA. Call (805) 429-4491."
         canonical="/"
         jsonLd={[localBusinessJsonLd, websiteJsonLd, faqJsonLd(faqs)]}
       />
@@ -77,7 +62,7 @@ export default function Home() {
       <HeroSection
         variant="home"
         title="Professional Landscaping Services In Ventura County"
-        subtitle="From yard care and landscape design to irrigation, artificial turf, hardscape, lighting, and ongoing maintenance — Landscaping Pros Of Ventura does it all, beautifully and reliably."
+        subtitle="From yard care and landscape design to irrigation, artificial turf, hardscape, lighting, and ongoing maintenance — Ventura Landscape & Design does it all, beautifully and reliably."
         backgroundImage="https://media.istockphoto.com/id/2245287606/photo/modern-minimalist-garden-with-stepping-stones-and-colorful-flowers.jpg?s=612x612&w=0&k=20&c=UU-UJNNEVZ_iwImfCpDex-Y0zGXA8h39qWBs2xUGsSY="
         backgroundAlt="Professional landscaping services in Ventura County"
       />
@@ -118,7 +103,7 @@ export default function Home() {
         <div className="container">
           <div className="center" style={{ marginBottom: '2.5rem' }}>
             <p className="eyebrow">Why Choose Us</p>
-            <h2>Ventura County’s Trusted Landscaping Pros</h2>
+            <h2>Ventura County’s Trusted Landscape &amp; Design Team</h2>
           </div>
           <div className="grid grid-4">
             {trust.map((t) => (
