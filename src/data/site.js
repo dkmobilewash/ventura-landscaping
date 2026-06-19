@@ -12,7 +12,7 @@ export const business = {
   state: 'CA',
   zip: '93003',
   region: 'Ventura County',
-  url: 'https://landscapingprosofventura.com',
+  url: 'https://venturalandscapeanddesign.com',
   geo: { lat: 34.2746, lng: -119.2290 },
   hours: 'Mon–Sat 7:00am–6:00pm',
   founded: 2009,
