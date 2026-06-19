@@ -64,7 +64,7 @@ export function localBusinessNode(extra = {}) {
   };
 }
 
-// The six cities we serve (used for areaServed, footers, location links).
+// The cities we serve (used for areaServed, footers, location links).
 export const cities = [
   { slug: '/ventura', name: 'Ventura' },
   { slug: '/oxnard', name: 'Oxnard' },
@@ -72,6 +72,12 @@ export const cities = [
   { slug: '/camarillo', name: 'Camarillo' },
   { slug: '/saticoy', name: 'Saticoy' },
   { slug: '/santa-paula', name: 'Santa Paula' },
+  { slug: '/port-hueneme', name: 'Port Hueneme' },
+  { slug: '/ojai', name: 'Ojai' },
+  { slug: '/thousand-oaks', name: 'Thousand Oaks' },
+  { slug: '/newbury-park', name: 'Newbury Park' },
+  { slug: '/moorpark', name: 'Moorpark' },
+  { slug: '/fillmore', name: 'Fillmore' },
 ];
 
 // Navigation dropdown structure used by Header and Footer.
@@ -119,6 +125,12 @@ export const nav = [
       { label: 'Camarillo', to: '/camarillo' },
       { label: 'Saticoy', to: '/saticoy' },
       { label: 'Santa Paula', to: '/santa-paula' },
+      { label: 'Port Hueneme', to: '/port-hueneme' },
+      { label: 'Ojai', to: '/ojai' },
+      { label: 'Thousand Oaks', to: '/thousand-oaks' },
+      { label: 'Newbury Park', to: '/newbury-park' },
+      { label: 'Moorpark', to: '/moorpark' },
+      { label: 'Fillmore', to: '/fillmore' },
     ],
   },
   {

@@ -125,7 +125,10 @@ export default function Home() {
           <p className="eyebrow">Service Area</p>
           <h2>Proudly Serving All Of Ventura County</h2>
           <p className="lead" style={{ margin: '0 auto 1.6rem' }}>
-            Local crews, fast response, and landscaping tailored to your city’s climate and character.
+            Local crews, fast response, and landscaping tailored to your city’s climate and
+            character — from <Link to="/ventura">Ventura</Link> and{' '}
+            <Link to="/camarillo">Camarillo</Link> to <Link to="/thousand-oaks">Thousand Oaks</Link>{' '}
+            and beyond.
           </p>
           <div style={{ display: 'flex', justifyContent: 'center' }}>
             <LocationLinks bare />

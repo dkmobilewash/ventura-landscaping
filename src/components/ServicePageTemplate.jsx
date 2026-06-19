@@ -77,6 +77,13 @@ export default function ServicePageTemplate({ slug, data }) {
             {data.intro.map((p, i) => (
               <p key={i}>{p}</p>
             ))}
+            <p>
+              We bring this service to homeowners across Ventura County, including{' '}
+              <Link to="/ventura">Ventura</Link>, <Link to="/oxnard">Oxnard</Link>,{' '}
+              <Link to="/camarillo">Camarillo</Link>,{' '}
+              <Link to="/thousand-oaks">Thousand Oaks</Link>, <Link to="/ojai">Ojai</Link>, and{' '}
+              <Link to="/moorpark">Moorpark</Link>.
+            </p>
             <a className="btn btn--primary mt-1" href={business.phoneHref}>
               Call {business.phoneDisplay}
             </a>

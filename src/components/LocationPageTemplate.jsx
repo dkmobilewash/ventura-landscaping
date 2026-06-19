@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import SEOHead from './SEOHead';
 import HeroSection from './HeroSection';
 import Breadcrumb, { breadcrumbJsonLd } from './Breadcrumb';
@@ -72,6 +73,44 @@ export default function LocationPageTemplate({ slug, data }) {
           </div>
         </div>
       </section>
+
+      {/* Hyper-local detail + in-body service links */}
+      {(data.localSections || data.serviceLinks || data.neighborhoods) && (
+        <section className="section">
+          <div className="container">
+            <div className="prose" style={{ maxWidth: 880, margin: '0 auto' }}>
+              {data.localSections?.map((s, i) => (
+                <div key={i} style={{ marginBottom: '1.75rem' }}>
+                  <h2>{s.h3}</h2>
+                  {s.body.map((p, j) => (
+                    <p key={j}>{p}</p>
+                  ))}
+                </div>
+              ))}
+
+              {data.serviceLinks && (
+                <>
+                  <h2>Most-Requested Services in {data.name}</h2>
+                  <ul className="checklist">
+                    {data.serviceLinks.map((sl) => (
+                      <li key={sl.to}>
+                        <Link to={sl.to}>{sl.label}</Link> — {sl.blurb}
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+
+              {data.neighborhoods && (
+                <p>
+                  <strong>{data.name} neighborhoods we serve:</strong>{' '}
+                  {data.neighborhoods.join(', ')}.
+                </p>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Services available */}
       <section className="section bg-off">
