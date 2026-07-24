@@ -6,7 +6,7 @@
 // Optional environment variables:
 //   LEAD_TO_EMAIL       - where leads are delivered (default: dcarrillo0422@gmail.com)
 //   LEAD_FROM_EMAIL     - verified Resend sender (default: onboarding@resend.dev)
-//                         Use a verified-domain address once your domain is set up,
+//                         Use a verified-omain address once your domain is set up,
 //                         e.g. "Landscaping Pros Of Ventura <leads@landscapingprosofventura.com>"
 
 const TO = process.env.LEAD_TO_EMAIL || 'dcarrillo0422@gmail.com';
@@ -40,6 +40,21 @@ export default async function handler(req, res) {
 
   // Honeypot: silently accept bot submissions without emailing.
   if (body.company) return res.status(200).json({ ok: true });
+
+    // Forward to Zapier webhook for lead tracking
+    try {
+          await fetch('https://hooks.zapier.com/hooks/catch/20117350/44fmixd/', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify({
+                            ...body,
+                            website: 'Landscaping Pros of Ventura',
+                            submittedAt: new Date().toISOString(),
+                  }),
+          });
+    } catch (zapierError) {
+          console.error('[Zapier Webhook Error]', zapierError);
+    }
 
   const {
     formType = 'contact',
